@@ -34,7 +34,7 @@ export default async function Blog() {
                                 </div>
                                 <div className='flex gap-5 justify-between'>
                                     <p className='text-text'>{item.date}</p>
-                                    <Link href={`/blog/${item.slug}`} className='text-text hover:text-primary flex items-center gap-1' prefetch={true}>read post <FontAwesomeIcon icon={faArrowRight} className='w-4 h-4' /></Link>
+                                    <Link href={`/blog/${item.id}`} className='text-text hover:text-primary flex items-center gap-1' prefetch={true}>read post <FontAwesomeIcon icon={faArrowRight} className='w-4 h-4' /></Link>
                                 </div>
                             </div>)}
                         </div>

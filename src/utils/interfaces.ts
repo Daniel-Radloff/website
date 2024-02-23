@@ -30,7 +30,6 @@ interface PostItem {
     description: string,
     date: string,
     last_edited: string,
-    slug: string,
     image: string,
     author: string,
 }

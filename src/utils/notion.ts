@@ -42,7 +42,7 @@ const getPageMetaData = (post: any) => {
         date: formatDate(post.properties.Date.date.start),
         last_edited: formatDate(post.properties.Date.last_edited_time),
         image: "",
-        author: post.properties.Author.rich_text[0].plain_text,
+        author: "Gustav (GD) Radloff" // Hard Code because its me
     };
 };
 
