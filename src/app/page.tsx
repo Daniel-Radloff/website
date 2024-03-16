@@ -17,7 +17,7 @@ export default async function Home() {
     <div className='bg-background min-h-screen' id="top">
       <div className='max-w-6xl m-auto p-5'>
         <nav className='flex justify-between items-center'>
-          <Link href='/' className='text-4xl text-text font-bold'>MRT</Link>
+          <Link href='/' className='text-4xl text-text font-bold'>GDR</Link>
           <div className='md:flex items-center gap-5 hidden'>
             {
               config.nav.map((item: NavItem, index: number) => <Link key={index} href={item.href} className='text-xl text-text duration-75 hover:text-primary'>{item.name}</Link>)
@@ -30,7 +30,7 @@ export default async function Home() {
         <main className='mt-20 space-y-10 md:space-y-32'>
           <section id='about' className='space-y-8'>
             <div className='space-y-3'>
-              <h1 className='font-bold text-5xl text-text text-center'>👋, I'm <span className='text-primary'>{config.about.title}</span></h1>
+              <h1 className='font-bold text-5xl text-text text-center'>Henlo :), my name is <span className='text-primary'>{config.about.title}</span></h1>
               <h2 className='font-medium text-3xl text-text text-center'>{config.about.subtitle}</h2>
             </div>
             <p id='description' className='text-text text-center text-lg md:m-5'>{config.about.description}</p>
@@ -44,7 +44,7 @@ export default async function Home() {
             </div>
           </section>
           <section id='projects' className='space-y-5'>
-            <h3 className='font-semibold text-4xl text-text text-center'>my Projects</h3>
+            <h3 className='font-semibold text-4xl text-text text-center'>My Projects</h3>
             <div className='grid gap-5 grid-cols-1 md:grid-cols-2'>
               {projects.map((item: ProjectItem, index: number) => <div className='bg-cardBackground p-5 md:p-10 space-y-4 shadow hover:-translate-y-1 duration-200 rounded-lg flex items-between justify-between flex-col' key={index}>
                 <div>
@@ -64,9 +64,9 @@ export default async function Home() {
             </div>
           </section>
           <section id='stack' className='space-y-5'>
-            <h3 className='font-semibold text-4xl text-text text-center'>my Stack</h3>
+            <h3 className='font-semibold text-4xl text-text text-center'>My Experience</h3>
             <div className='flex flex-row gap-3 items-center justify-center flex-wrap'>
-              {config.stack.map((item: StackItem, index: number) => <Link href={item.link} key={index}>
+              {config.experience.map((item: StackItem, index: number) => <Link href={item.link} key={index}>
                 <Image src={item.image} alt={`Icon for ${item.name}`} width={48} height={48} />
               </Link>)}
             </div>

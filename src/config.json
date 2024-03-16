@@ -1,7 +1,7 @@
 {
     "nav": [
         {
-            "name": "about me",
+            "name": "About Me",
             "href": "#about",
             "mobile": false
         },
@@ -23,8 +23,8 @@
     ],
     "metadata": {
         "/": {
-            "title": "Michael Ross Tarr",
-            "description": "Hey 👋, I'm Michael, but I am also known as Sloth in some places."
+            "title": "GDR",
+            "description": "Some know me as the swinging rat, others: the meanace. I prefer to go by either Daniel or Gustav I don't mind which one you use."
         },
         "/blog": {
             "title": "my Blog",
@@ -36,28 +36,33 @@
         }
     },
     "about": {
-        "title": "Michael Ross Tarr",
-        "subtitle": "South African, Gamer and <Programmer/>",
-        "description": "Hey 👋, I'm Michael, but I am also known as Sloth in some places. I am currently in my final year of BIS Multimedia at the University of Pretoria. If you don't see me programming or studying, you can most likely find me on the hockey field, listening to music, playing video games, or rewatching all the Star Wars series and movies.",
+        "title": "Gustav (...Daniel) Radloff",
+        "subtitle": "Aspring Cybersecurity Professional, Musician, and Critical Thinker",
+        "description": "Some know me as the swinging rat, others lovingly refer to me as: the menace. I prefer to go by either Daniel or Gustav I don't mind which one you use. I completed my Bachelors of Science in Computer Science at the University of Pretoria in 2023. I am currently persuing my honors in the same field specializing in Cybersecurity and I am expected to finish that by the end of 2024. This year I am trying to find what field of security I would like to go down. Currently my interests are Penetration Testing, Reverse Engineering, and Binary Analisis.",
         "social": {
-            "linkedin": "https://www.linkedin.com/in/michaelrosstarr/",
-            "github": "https://github.com/michaelrosstarr",
+            "linkedin": "https://www.linkedin.com/in/gustav-radloff/",
+            "github": "https://github.com/Daniel-Radloff",
             "spotify": "https://stats.fm/michaelrosstarr",
             "twitter": "https://twitter.com/michaelrosstarr",
             "youtube": "https://www.youtube.com/michaelrosstarr",
             "coffee": "https://www.buymeacoffee.com/sloththedev"
         }
     },
-    "stack": [
+    "experience": [
         {
-            "link": "https://docker.com/",
-            "image": "https://skillicons.dev/icons?i=docker",
-            "name": "docker"
+            "link": "https://archlinux.org/",
+            "image": "https://skillicons.dev/icons?i=arch",
+            "name": "arch"
         },
         {
-            "link": "https://azure.microsoft.com/en-us",
-            "image": "https://skillicons.dev/icons?i=azure",
-            "name": "azure"
+            "link": "https://www.arduino.cc/",
+            "image": "https://skillicons.dev/icons?i=arduino",
+            "name": "arduino"
+        },
+        {
+            "link": "https://www.gnu.org/software/bash/",
+            "image": "https://skillicons.dev/icons?i=bash",
+            "name": "bash"
         },
         {
             "link": "https://cloudflare.com/",
@@ -65,9 +70,14 @@
             "name": "cloudflare"
         },
         {
-            "link": "https://deno.com/",
-            "image": "https://skillicons.dev/icons?i=deno",
-            "name": "deno"
+            "link": "https://isocpp.org/",
+            "image": "https://skillicons.dev/icons?i=cpp",
+            "name": "cpp"
+        },
+        {
+            "link": "https://www.debian.org/",
+            "image": "https://skillicons.dev/icons?i=debian",
+            "name": "debian"
         },
         {
             "link": "https://expressjs.com/",
@@ -90,14 +100,39 @@
             "name": "github"
         },
         {
+            "link": "https://www.java.com/en/",
+            "image": "https://skillicons.dev/icons?i=java",
+            "name": "js"
+        },
+        {
             "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
             "image": "https://skillicons.dev/icons?i=js",
             "name": "js"
         },
         {
+            "link": "https://www.kali.org/",
+            "image": "https://skillicons.dev/icons?i=kali",
+            "name": "kali"
+        },
+        {
+            "link": "https://www.linux.org/",
+            "image": "https://skillicons.dev/icons?i=linux",
+            "name": "linux"
+        },
+        {
             "link": "https://mongodb.com/",
             "image": "https://skillicons.dev/icons?i=mongodb",
             "name": "mongodb"
+        },
+        {
+            "link": "https://www.mysql.com/",
+            "image": "https://skillicons.dev/icons?i=mysql",
+            "name": "mysql"
+        },
+        {
+            "link": "https://neovim.io/",
+            "image": "https://skillicons.dev/icons?i=neovim",
+            "name": "neovim"
         },
         {
             "link": "https://nestjs.com/",
@@ -115,9 +150,49 @@
             "name": "nodejs"
         },
         {
+            "link": "https://www.php.net/",
+            "image": "https://skillicons.dev/icons?i=php",
+            "name": "php"
+        },
+        {
+            "link": "https://www.postgresql.org/",
+            "image": "https://skillicons.dev/icons?i=postgres",
+            "name": "postgres"
+        },
+        {
+            "link": "https://www.python.org/",
+            "image": "https://skillicons.dev/icons?i=py",
+            "name": "py"
+        },
+        {
+            "link": "https://www.raspberrypi.com/",
+            "image": "https://skillicons.dev/icons?i=raspberrypi",
+            "name": "raspberrypi"
+        },
+        {
             "link": "https://react.dev",
             "image": "https://skillicons.dev/icons?i=react",
             "name": "react"
+        },
+        {
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions",
+            "image": "https://skillicons.dev/icons?i=regex",
+            "name": "regex"
+        },
+        {
+            "link": "https://rocket.rs/",
+            "image": "https://skillicons.dev/icons?i=rocket",
+            "name": "rocket"
+        },
+        {
+            "link": "https://www.rust-lang.org/",
+            "image": "https://skillicons.dev/icons?i=rust",
+            "name": "rust"
+        },
+        {
+            "link": "https://svelte.dev/",
+            "image": "https://skillicons.dev/icons?i=svelte",
+            "name": "svelte"
         },
         {
             "link": "https://tailwindcss.com/",
@@ -130,25 +205,25 @@
             "name": "ts"
         },
         {
-            "link": "https://workers.cloudflare.com/",
-            "image": "https://skillicons.dev/icons?i=workers",
-            "name": "workers"
-        },
-        {
             "link": "https://vercel.com",
             "image": "https://skillicons.dev/icons?i=vercel",
             "name": "vercel"
         },
         {
-            "link": "https://sentry.io",
-            "image": "https://skillicons.dev/icons?i=sentry",
-            "name": "sentry"
+            "link": "https://www.vim.org/",
+            "image": "https://skillicons.dev/icons?i=vim",
+            "name": "vim"
+        },
+        {
+            "link": "https://www.microsoft.com/en-us/windows",
+            "image": "https://skillicons.dev/icons?i=windows",
+            "name": "windows"
         }
     ],
     "contact": {
         "email": {
-            "address": "hello@michaelrosstarr.com",
-            "text": "hello[at]michaelrosstarr[dot]com"
+            "address": "danielrad082@gmail.com",
+            "text": "gustav@radloff.gd"
         }
     }
 }
